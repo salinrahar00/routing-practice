@@ -4,8 +4,7 @@ function Home() {
   return (
     <div>
       <h1>Home Page</h1>
-      <p>Welcome to my routing practice project!</p>
-      <Link to="/about">Go to About</Link>
+      <p>This is my Home page.</p>
     </div>
   );
 }
@@ -15,7 +14,6 @@ function About() {
     <div>
       <h1>About Page</h1>
       <p>This is my About page.</p>
-      <Link to="/">Go to Home</Link>
     </div>
   );
 }
@@ -24,7 +22,7 @@ function Skills() {
   return (
     <div>
       <h1>Skills Page</h1>
-      <p>HTML, CSS, JavaScript, React</p>
+      <p>This is my Contact page.</p>
     </div>
   );
 }
